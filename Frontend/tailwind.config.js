@@ -67,9 +67,9 @@ export default {
           border_dark: '#51a6f5',
           ring: '#2BADAF',
           ring_dark: '#2BADAF',
-          placeholder :'#808080',
-          placeholder_dark :'#808080',
-        }
+          placeholder: '#808080',
+          placeholder_dark: '#808080',
+        },
       },
     },
   },

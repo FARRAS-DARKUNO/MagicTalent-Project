@@ -1,12 +1,14 @@
 
 import fetchReducer from './fetchingData/reducer';
-import darkModeSlice from './themeSlice/themeSlice'
+import darkModeSlice from './themeSlice/themeSlice';
+import ThemeSplice from '../Base/MTF/ThemeSplice'
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 
 const store = configureStore({
     reducer: {
         fetchData: fetchReducer,
-        themeChsnge : darkModeSlice 
+        themeChange: ThemeSplice,
+        themeChsnge: darkModeSlice
     },
 });
 
