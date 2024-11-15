@@ -1,11 +1,12 @@
 import Navbar from "./components/Navar-Footer/Navbar";
+import LandingPage from "./Pages/LandingPage";
 
 
 const PortfolioUser = () => {
   return (
     <>
       <Navbar />
-      <div className="h-[1000px]"></div>
+      <LandingPage />
     </>
   )
 };
