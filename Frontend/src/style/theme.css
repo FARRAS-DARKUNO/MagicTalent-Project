@@ -19,6 +19,10 @@
   background-color: var(--button-default);
 }
 
+.backround-default {
+  background-color: var(--background-default);
+}
+
 .backround-primary {
   background-color: var(--primary-default);
 }
