@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import { RootState } from "../../../../store";
 import SocialMediaSVG from "../../components/Media/SocialMediaSVG";
 import "./style.css"
+import CardWithDetailInformation from "../../components/Card/CardWithDetailInformation";
 
 const LandingPage = () => {
     const theme = useSelector((state: RootState) => state.themeChange.Theme);
@@ -15,16 +16,14 @@ const LandingPage = () => {
         "Software Developer",
     ];
 
-
-
     const [currentPosition, setCurrentPosition] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentPosition((prev) => (prev + 1) % positions.length);
-        }, 1500); // Ubah teks setiap 1 detik
+        }, 1500);
 
-        return () => clearInterval(interval); // Bersihkan interval ketika komponen dibersihkan
+        return () => clearInterval(interval);
     }, [positions.length]);
 
     return (
@@ -56,9 +55,27 @@ const LandingPage = () => {
                     />
                 </div>
             </div>
-            <div className="h-screen">
-                {/* Konten lainnya */}
+            <div className={`${theme} px-8 lg:px-16`}>
+
+                <div className="flex items-center w-full">
+                    <div className="flex-grow h-1 rounded-full backround-primary"></div>
+                    <h2 className="mx-4 font-bold text-primary">My SKill</h2>
+                    <div className="flex-grow h-1 rounded-full backround-primary"></div>
+                </div>
+                <br />
+                <p className="font-medium text-center">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s s
+                </p>
+                <br />
+                <div className="flex items-center justify-center w-full ">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                        <CardWithDetailInformation />
+                        <CardWithDetailInformation />
+                        <CardWithDetailInformation />
+                    </div>
+                </div>
             </div>
+            <br />
         </>
     );
 };
