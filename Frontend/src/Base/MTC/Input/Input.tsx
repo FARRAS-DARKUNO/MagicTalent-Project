@@ -161,8 +161,8 @@ const FileUploader: React.FC<Props<FileProps>> = ({
                     <svg
                         className="w-10 h-10 mb-4 text-field-border dark:text-field-border_dark"
                         aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
                         fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 16"
                     >
                         <path

@@ -8,10 +8,25 @@
 }
 
 .typing-effect {
-    display: inline-block;
     white-space: nowrap;
     overflow: hidden;
     width: 0;
     animation: typing 1s steps(30) 1s forwards;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+.gradient-button {
+    color: white;
+    background: linear-gradient(to right, var(--primary-default), var(--secondary-default));
+    font-weight: 500;
+    border-radius: 9999px; /* Rounded-full */
+    font-size: 0.875rem; /* Text-sm */
+    padding: 0.625rem 1.25rem; /* Px-5 Py-2.5 */
+    text-align: center;
+    display: inline-block;
+    margin-right: 0.5rem; /* Me-2 */
+    margin-bottom: 0.5rem; /* Mb-2 */
+}
+
+.gradient-button:hover {
+    background: linear-gradient(to bottom left, var(--primary-default), var(--secondary-default));
 }

@@ -1,53 +1,60 @@
-
 .seaweed {
-    --button-default: #00494E;
-    --button-on: #FBFCFC;
-    --button-disable: #EBEBE4;
-  
-    --background-default: #FFFFFF;
-    --background-secondary: #DADBE0;
-  
-    --primary-default: #00494E;
-    --primary-shadow: #355657;
-  
-    --secondary-default: #4B8082;
-  
-    --text-default: #0E0C0C;
-    --text-secondary: #1E1E1E;
-  }
-  
-  .button-default {
-    background-color: var(--button-default);
-  }
-  
-  .button-on {
-    color: var(--button-on);
-  }
-  
-  .button-disable {
-    background-color: var(--button-disable);
-  }
-  
-  .bg-default {
-    background-color: var(--background-default);
-  }
-  
-  .bg-secondary {
-    background-color: var(--background-secondary);
-  }
-  
-  .text-default {
-    color: var(--text-default);
-  }
-  
-  .text-secondary {
-    color: var(--text-secondary);
-  }
+  --button-default: #00494E;
+  --button-on: #FBFCFC;
+  --button-disable: #EBEBE4;
 
-  .text-primary {
-    color: var(--primary-default);
-  }
-  
-  .shadow-primary {
-    box-shadow: 0px 4px 6px var(--primary-shadow);
-  }
+  --background-default: #FFFFFF;
+  --background-secondary: #DADBE0;
+
+  --primary-default: #00494E;
+  --primary-shadow: #355657;
+
+  --secondary-default: #4B8082;
+
+  --text-default: #0E0C0C;
+  --text-secondary: #1E1E1E;
+}
+
+.button-default {
+  background-color: var(--button-default);
+}
+
+.backround-primary {
+  background-color: var(--primary-default);
+}
+
+.backround-secondary {
+  background-color: var(--secondary-default);
+}
+
+.button-on {
+  color: var(--button-on);
+}
+
+.button-disable {
+  background-color: var(--button-disable);
+}
+
+.bg-default {
+  background-color: var(--background-default);
+}
+
+.bg-secondary {
+  background-color: var(--background-secondary);
+}
+
+.text-default {
+  color: var(--text-default);
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-primary {
+  color: var(--primary-default);
+}
+
+.shadow-primary {
+  box-shadow: 0px 4px 6px var(--primary-shadow);
+}

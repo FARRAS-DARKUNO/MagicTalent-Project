@@ -6,7 +6,7 @@ const PortfolioUser = () => {
   return (
     <>
       <Navbar />
-      <LandingPage />
+      <LandingPage/>
     </>
   )
 };
