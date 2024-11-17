@@ -23,7 +23,7 @@ const LandingPage = () => {
         {
             year: "2020",
             title: "Junior Developer",
-            company: "TechSoft Inc.",
+            company: "PT Nawa Data Solution.",
             type: "work" as ExperienceType, // Explicitly cast type to ExperienceType
             description:
                 "Developed responsive web applications and optimized performance for client projects.",
@@ -31,7 +31,7 @@ const LandingPage = () => {
         {
             year: "2021",
             title: "Completed React Bootcamp",
-            company: "Online Academy",
+            company: "PT Karya Sisi Teknis TBK",
             type: "learning" as ExperienceType, // Explicitly cast type to ExperienceType
             description:
                 "Mastered React, Redux, and JavaScript concepts through hands-on projects and mentorship.",
@@ -72,7 +72,10 @@ const LandingPage = () => {
 
     return (
         <div className={`${theme}`}>
-            <div className={`${theme} lg:h-screen bg-center flex px-8 lg:px-16 flex-col-reverse lg:flex-row `}>
+            <div
+                className={` lg:h-screen bg-center flex px-8 lg:px-16 flex-col-reverse lg:flex-row `}
+                style={{ backgroundImage: 'url("/svg/backround-seewet.svg")' }}
+            >
                 <div className="flex flex-col w-full lg:w-7/12 items-start justify-center ">
                     <h4 className="text-primary">Welcome</h4>
                     <h1>
