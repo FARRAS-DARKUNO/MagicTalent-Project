@@ -17,7 +17,7 @@ const Navbar: React.FC<INavbarPropsPortFolio> = () => {
     ];
 
     return (
-        <nav className={`${theme} flex fixed top-0 left-0 w-full py-4 px-16 items-center justify-between h-[64px]`}>
+        <nav className={`${theme} flex fixed top-0 left-0 w-full py-4 px-16 items-center justify-between h-[64px] background-default z-50`}>
             <h5 className={`text-primary`}>
                 Nama Pengguna
             </h5>

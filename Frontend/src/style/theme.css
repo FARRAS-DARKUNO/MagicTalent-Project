@@ -13,21 +13,23 @@
 
   --text-default: #0E0C0C;
   --text-secondary: #1E1E1E;
+  --text-on-primary: #DADBE0;
+  --text-on-secondary: #DADBE0;
 }
 
 .button-default {
   background-color: var(--button-default);
 }
 
-.backround-default {
+.background-default {
   background-color: var(--background-default);
 }
 
-.backround-primary {
+.background-primary {
   background-color: var(--primary-default);
 }
 
-.backround-secondary {
+.background-secondary {
   background-color: var(--secondary-default);
 }
 
@@ -57,6 +59,14 @@
 
 .text-primary {
   color: var(--primary-default);
+}
+
+.text-on-primary {
+  color: var(--text-on-primary);
+}
+
+.text-on-secondary {
+  color: var(--text-on-primary);
 }
 
 .shadow-primary {

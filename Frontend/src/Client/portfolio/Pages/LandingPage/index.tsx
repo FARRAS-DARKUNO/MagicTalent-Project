@@ -102,9 +102,9 @@ const LandingPage = () => {
             <div className={`${theme} px-8 lg:px-16`}>
 
                 <div className="flex items-center w-full ">
-                    <div className="flex-grow h-1 rounded-full backround-primary"></div>
+                    <div className="flex-grow h-1 rounded-full background-primary"></div>
                     <h2 className="mx-4 font-bold text-primary">My SKill</h2>
-                    <div className="flex-grow h-1 rounded-full backround-primary"></div>
+                    <div className="flex-grow h-1 rounded-full background-primary"></div>
                 </div>
                 <br />
                 <p className="font-medium text-center">
@@ -121,9 +121,9 @@ const LandingPage = () => {
             </div>
             <br />
             <div className="flex items-center w-full px-8 lg:px-16">
-                <div className="flex-grow h-1 rounded-full backround-primary"></div>
+                <div className="flex-grow h-1 rounded-full background-primary"></div>
                 <h2 className="mx-4 font-bold text-primary">My Experience</h2>
-                <div className="flex-grow h-1 rounded-full backround-primary"></div>
+                <div className="flex-grow h-1 rounded-full background-primary"></div>
             </div>
             <br />
             <p className="font-medium text-center px-8 lg:px-16">
@@ -133,7 +133,7 @@ const LandingPage = () => {
 
             <div className={`${theme} relative w-full max-w-6xl mx-auto p-6 `}>
                 {/* Vertical Line */}
-                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-1 backround-secondary hidden md:block"></div>
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 h-full w-1 background-secondary hidden md:block"></div>
 
                 {experiences.map((exp, index) => (
                     <div
@@ -143,7 +143,7 @@ const LandingPage = () => {
                     >
                         {/* Card Section */}
                         <div className="flex-1 flex flex-col items-center md:items-start px-4">
-                            <div className="border border-gray-300 rounded-lg shadow-lg p-6 backround-default w-full max-w-md">
+                            <div className="border border-gray-300 rounded-lg shadow-lg p-6 background-default w-full max-w-md">
                                 <div className="flex items-center mb-4">
                                     <div className="mr-4">{typeIcons[exp.type]}</div>
                                     <div>
@@ -155,7 +155,7 @@ const LandingPage = () => {
                                 <div className="flex justify-end">
                                     <button
                                         type="button"
-                                        className="px-4 py-2 text-sm font-medium button-on backround-secondary rounded-full"
+                                        className="px-4 py-2 text-sm font-medium button-on background-secondary rounded-full"
                                     >
                                         Detail
                                     </button>
@@ -165,8 +165,8 @@ const LandingPage = () => {
 
                         {/* Connector Section */}
                         <div className="hidden md:flex flex-col items-center">
-                            <div className="h-4 w-4 rounded-full backround-primary"></div>
-                            <div className="w-1 h-full backround-default"></div>
+                            <div className="h-4 w-4 rounded-full background-primary"></div>
+                            <div className="w-1 h-full background-default"></div>
                         </div>
 
                         {/* Year Section */}
